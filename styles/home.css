@@ -13,10 +13,11 @@ header {
 
   background: linear-gradient(
       to bottom,
-      rgba(166, 229, 179, 0) 60%,
+      rgba(166, 229, 179, 0) 70%,
       rgba(166, 229, 179, 1)
     ),
-    url("../img/closeup-photo-of-sprout-1002703.jpg") no-repeat;
+    url("../img/three-green-assorted-plants-in-white-ceramic-pots-776656.jpg")
+      no-repeat center center;
 
   background-size: cover;
 }
@@ -42,6 +43,16 @@ section {
 img {
   width: 100%;
   border-radius: 10px;
+}
+
+/* Introduction Section  styling */
+
+#introduction h2 {
+  padding: 1rem 0 3rem 0;
+}
+
+#introduction {
+  padding-bottom: 4rem;
 }
 
 /* Features Section Styling */
