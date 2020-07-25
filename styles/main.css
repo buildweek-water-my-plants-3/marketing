@@ -20,6 +20,10 @@
 	width: 80%;
 }
 
+.navbar-brand {
+	font-weight: bold;
+}
+
 .nav-item {
 	border-radius: 5px;
 	border: 1px solid black;

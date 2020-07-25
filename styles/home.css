@@ -75,6 +75,15 @@ img {
   justify-items: center;
 }
 
-#feature-container h3 {
+#feature-container article h3 {
   text-align: center;
+  margin-top: 1rem;
+}
+
+#feature-container article{
+  margin-top: 2rem;
+}
+
+main {
+  padding-bottom: 2rem;
 }
