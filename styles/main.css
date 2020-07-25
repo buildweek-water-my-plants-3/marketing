@@ -30,6 +30,17 @@
 	font-size: 1.25rem;
 }
 
+footer {
+	background-color: darkgreen;
+	padding: 1rem 2rem;
+	
+	color: white;
+}
+
+footer p {
+	margin: 0;
+}
+
 @media(min-width:992px) {
 	
 		.navbar-nav {
