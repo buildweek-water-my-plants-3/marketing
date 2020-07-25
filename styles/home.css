@@ -1,0 +1,89 @@
+:root {
+  --main-bg-color: #a6e5b3;
+}
+
+h1,
+main h2 {
+  text-align: center;
+}
+
+header {
+  padding: 10rem 0;
+  color: white;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(166, 229, 179, 0) 70%,
+      rgba(166, 229, 179, 1)
+    ),
+    url("../img/three-green-assorted-plants-in-white-ceramic-pots-776656.jpg")
+      no-repeat center center;
+
+  background-size: cover;
+}
+
+#title {
+  font-size: 4rem;
+  border-radius: 40px;
+  margin: 0 auto;
+  width: 80%;
+  
+  text-shadow: 
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#features {
+  color: #137547;
+}
+
+section {
+  padding: 2rem 3rem;
+  text-align: justify;
+}
+
+#introduction {
+  background-color: var(--main-bg-color);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Introduction Section  styling */
+
+#introduction h2 {
+  padding: 1rem 0 3rem 0;
+}
+
+#introduction {
+  padding-bottom: 4rem;
+}
+
+/* Features Section Styling */
+
+#features h2 {
+  margin: 1rem 0;
+}
+
+#feature-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+#feature-container article h3 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#feature-container article{
+  margin-top: 2rem;
+}
+
+main {
+  padding-bottom: 2rem;
+}
