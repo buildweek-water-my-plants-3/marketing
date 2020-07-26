@@ -3,7 +3,7 @@
 }
 
 h1,
-main h2 {
+main h2, #introduction {
   text-align: center;
 }
 
@@ -86,4 +86,43 @@ img {
 
 main {
   padding-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+  section {
+    padding: 2rem 10rem;
+  }
+
+  .feature {
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+    height: 20rem;
+  }
+
+  .feature:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+
+  section#introduction {
+    padding: 5rem 20rem;
+  }
+
+  section#features img {
+    height: 15rem;
+    max-width: 20rem;
+    min-width: 50%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1112px) {
+  #feature-container {
+    row-gap: 5rem;
+  }
+
+  section#features img {
+    height: 20rem;
+    padding: 0 1rem;
+  }
 }
