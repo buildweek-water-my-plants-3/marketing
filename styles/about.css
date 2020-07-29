@@ -46,9 +46,16 @@ main {
 @media (min-width: 992px) {
     .member {
         align-items: center;
+        width: 30rem;
     }
     .member img {
-        min-width: 40rem;
-        max-height: 40rem;
+        min-width: 20rem;
+        max-height: 20rem;
+    }
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        justify-content: space-evenly;
     }
 }
