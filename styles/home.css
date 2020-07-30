@@ -54,6 +54,10 @@ section {
     object-fit: cover;
 }
 
+#introduction p {
+    margin-bottom: 3rem;
+}
+
 
 /* Features Section Styling */
 
@@ -125,5 +129,16 @@ main {
         margin: 0 auto;
         min-width: 20rem;
         max-width: 40rem;
+    }
+    #title {
+        font-size: 5rem;
+    }
+    #introduction h2 {
+        font-size: 3rem;
+    }
+    #introduction p {
+        font-size: 1.25rem;
+        margin: 0 auto 2rem;
+        width: 70%;
     }
 }

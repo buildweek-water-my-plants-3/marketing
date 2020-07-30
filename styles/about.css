@@ -4,6 +4,7 @@ header {
 }
 
 header h1 {
+    font-size: 3rem;
     margin: 5rem 0;
 }
 
@@ -28,13 +29,24 @@ main {
 }
 
 .member {
-    border: 1px solid black;
+    border: 6px solid salmon;
     align-self: center;
     width: 70%;
+    background: #d0f2d6;
+}
+
+.member h2 {
+    font-weight: bold;
+    padding: 1rem;
 }
 
 .member img {
-    padding: 0 .5rem;
+    padding: 0 1.5rem;
+}
+
+.member a {
+    font-size: 2rem;
+    padding: 1rem 0;
 }
 
 @media (max-width: 675px) {
